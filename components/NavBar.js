@@ -12,7 +12,7 @@ const NavBar = (props) => {
     <nav className="w-full  flex py-6 justify-between items-center navbar text-white">
       <motion.h1
         className="font-1 font-poppins font-semibold ss:text-[52px] text-[32px] text-white "
-        animate={{ x: ["-100vh", "50vh", "0vh"] }}
+        animate={{ x: ["-10vh", "5vh", "0vh"] }}
         transition={{ delay: 0.2, type: "spring", duration: 0.7 }}
       >
         <Link href="/" className="flex justify-center items-center gap-1">
@@ -33,7 +33,7 @@ const NavBar = (props) => {
       {con && (
         <motion.ul
           className="list-none flex justify-end items-center flex-1 z-10"
-          animate={{ x: ["100vh", "-50vh", "0vh"] }}
+          animate={{ y: [ "-50vh", "0vh"] }}
           transition={{ delay: 0.2, type: "spring", duration: 0.6 }}
         >
           <li className="menu font-poppins font-normal  text-dimWhite cursor-pointer text:[18px] sm:text-[26px] mr-5 sm:mr-10  hover ">
