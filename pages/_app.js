@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
         <title>ETHER</title>
         <meta
           name="description"
-          content="personal blog website for sunil reddy"
+          content="Ether website from 0xsiva#4520"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
